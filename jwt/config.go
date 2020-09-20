@@ -39,4 +39,6 @@ type Config struct {
 	// if the token was expired, expiration error will be returned
 	// Default: false
 	Expiration bool
+	// Exclude JWT validate path
+	ExcludePath map[string]bool
 }

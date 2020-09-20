@@ -97,6 +97,9 @@ func New(cfg ...Config) *Middleware {
 	if c.Extractor == nil {
 		c.Extractor = FromAuthHeader
 	}
+	if c.ExcludePath == nil {
+		c.ExcludePath = make(map[string]bool, 0)
+	}
 
 	return &Middleware{Config: c}
 }
@@ -186,6 +189,13 @@ var jwtParser = new(jwt.Parser)
 func (m *Middleware) CheckJWT(ctx iris.Context) error {
 	if !m.Config.EnableAuthOnOptions {
 		if ctx.Method() == iris.MethodOptions {
+			return nil
+		}
+	}
+
+	if len(m.Config.ExcludePath) > 0 {
+		path := ctx.Request().URL.Path
+		if exclude := m.Config.ExcludePath[path]; exclude {
 			return nil
 		}
 	}
