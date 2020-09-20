@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/kataras/iris/v12"
 
-	i18n "github.com/iris-contrib/middleware/go-i18n"
+	i18n "github.com/jonsen/middleware/go-i18n"
 )
 
 type user struct {

@@ -11,13 +11,13 @@ Install a middleware, take for example the [jwt](jwt) one.
 ```sh
 $ go mod init myapp
 $ go get github.com/kataras/iris/v12@v12.2.0-alpha
-$ go get github.com/iris-contrib/middleware/jwt
+$ go get github.com/jonsen/middleware/jwt
 ```
 
 **import as**
 
 ```go
-import "github.com/iris-contrib/middleware/jwt"
+import "github.com/jonsen/middleware/jwt"
 
 // [...Code]
 ```
@@ -132,4 +132,4 @@ If you are interested in contributing to this project, please push a PR.
 
 ## People
 
-[List of all contributors](https://github.com/iris-contrib/middleware/graphs/contributors)
+[List of all contributors](https://github.com/jonsen/middleware/graphs/contributors)

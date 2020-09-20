@@ -9,7 +9,7 @@ Rate limiting HTTP requests.
 
 ```sh
 $ go get github.com/didip/tollbooth
-$ go get github.com/iris-contrib/middleware/tollboothic
+$ go get github.com/jonsen/middleware/tollboothic
 ```
 
 ## Table of contents

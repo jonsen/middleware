@@ -1,4 +1,4 @@
-module github.com/iris-contrib/middleware/cloudwatch
+module github.com/jonsen/middleware/cloudwatch
 
 go 1.14
 

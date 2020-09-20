@@ -1,4 +1,4 @@
-module github.com/iris-contrib/middleware/prometheus
+module github.com/jonsen/middleware/prometheus
 
 go 1.14
 

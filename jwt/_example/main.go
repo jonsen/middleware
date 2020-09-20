@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/kataras/iris/v12"
 
-	"github.com/iris-contrib/middleware/jwt"
+	"github.com/jonsen/middleware/jwt"
 )
 
 var mySecret = []byte("My Secret")

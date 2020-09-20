@@ -1,4 +1,4 @@
-module github.com/iris-contrib/middleware/secure
+module github.com/jonsen/middleware/secure
 
 go 1.14
 

@@ -1,4 +1,4 @@
-module github.com/iris-contrib/middleware/casbin
+module github.com/jonsen/middleware/casbin
 
 go 1.14
 

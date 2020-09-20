@@ -1,4 +1,4 @@
-module github.com/iris-contrib/middleware/newrelic
+module github.com/jonsen/middleware/newrelic
 
 go 1.14
 

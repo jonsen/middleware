@@ -18,7 +18,7 @@ func main() {
 		}
 
 		ctx.Next()
-	} // or	"github.com/iris-contrib/middleware/cors"
+	} // or	"github.com/jonsen/middleware/cors"
 
 	app.UseRouter(crs)
 	// OR per group of routes:

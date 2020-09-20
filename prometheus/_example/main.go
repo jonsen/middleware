@@ -6,7 +6,7 @@ import (
 
 	"github.com/kataras/iris/v12"
 
-	prometheusMiddleware "github.com/iris-contrib/middleware/prometheus"
+	prometheusMiddleware "github.com/jonsen/middleware/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )
 

@@ -1,4 +1,4 @@
-module github.com/iris-contrib/middleware/cors
+module github.com/jonsen/middleware/cors
 
 go 1.14
 

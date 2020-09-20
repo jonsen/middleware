@@ -4,7 +4,7 @@ import (
 	"github.com/kataras/iris/v12"
 
 	"github.com/casbin/casbin/v2"
-	cm "github.com/iris-contrib/middleware/casbin"
+	cm "github.com/jonsen/middleware/casbin"
 )
 
 // $ go get github.com/casbin/casbin/v2@v2.9.0

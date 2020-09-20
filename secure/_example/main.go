@@ -3,10 +3,10 @@ package main
 import (
 	"github.com/kataras/iris/v12"
 
-	"github.com/iris-contrib/middleware/secure"
+	"github.com/jonsen/middleware/secure"
 )
 
-// $ go get github.com/iris-contrib/middleware/secure@master
+// $ go get github.com/jonsen/middleware/secure@master
 // $ go get github.com/kataras/iris/v12@master
 func main() {
 	s := secure.New(secure.Options{

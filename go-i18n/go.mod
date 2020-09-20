@@ -1,4 +1,4 @@
-module github.com/iris-contrib/middleware/go-i18n
+module github.com/jonsen/middleware/go-i18n
 
 go 1.14
 

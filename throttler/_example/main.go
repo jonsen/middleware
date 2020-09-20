@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/kataras/iris/v12"
 
-	"github.com/iris-contrib/middleware/throttler"
+	"github.com/jonsen/middleware/throttler"
 
 	"github.com/throttled/throttled/v2"
 	"github.com/throttled/throttled/v2/store/memstore"

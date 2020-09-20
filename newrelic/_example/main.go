@@ -6,7 +6,7 @@ import (
 
 	"github.com/kataras/iris/v12"
 
-	irisnewrelic "github.com/iris-contrib/middleware/newrelic"
+	irisnewrelic "github.com/jonsen/middleware/newrelic"
 	"github.com/newrelic/go-agent/v3/newrelic"
 )
 

@@ -1,4 +1,4 @@
-module github.com/iris-contrib/middleware/tollboothic
+module github.com/jonsen/middleware/tollboothic
 
 go 1.14
 

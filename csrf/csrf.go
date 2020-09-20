@@ -136,7 +136,7 @@ func New(authKey []byte, opts ...Option) *Csrf {
 // Requests that do not provide a matching token are served with a HTTP 403
 // 'Forbidden' error response.
 //
-// Example: https://github.com/iris-contrib/middleware/tree/master/csrf/_example
+// Example: https://github.com/jonsen/middleware/tree/master/csrf/_example
 func Protect(authKey []byte, opts ...Option) iris.Handler {
 	cs := New(authKey, opts...)
 	return cs.Serve

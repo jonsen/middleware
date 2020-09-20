@@ -13,7 +13,7 @@ package main
 import (
 	"github.com/kataras/iris/v12"
 
-	"github.com/iris-contrib/middleware/csrf"
+	"github.com/jonsen/middleware/csrf"
 )
 
 func main() {
